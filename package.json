@@ -22,7 +22,7 @@
     "clean:src": "rm -rf ./src",
     "clean:dist": "rm -rf ./dist",
     "build": "npm run clean && npm run build:generate && npm run build:esm && npm run build:cjs",
-    "build:generate": "openapi-generator-cli generate -i shipengine-openapi/openapi.yaml -g typescript-fetch --skip-validate-spec -o ./src",
+    "build:generate": "openapi-generator-cli generate -i shipengine-openapi/openapi.yaml -g typescript-axios -o ./src",
     "build:esm": "tsc -p ./tsconfig.esm.json",
     "build:cjs": "tsc -p ./tsconfig.cjs.json"
   },
