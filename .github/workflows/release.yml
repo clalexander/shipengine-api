@@ -10,6 +10,9 @@ on:
 permissions:
   contents: read # for checkout
 
+env:
+  DEVELOPMENT_BRANCH: dev
+
 jobs:
   release:
     name: Release
