@@ -1,6 +1,6 @@
 {
   "name": "shipengine-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An Axios-based TypeScript client for the ShipEngine API",
   "main": "./dist/cjs/index.js",
   "exports": {
